@@ -1,14 +1,14 @@
 <?php
-  //echo '<p> this is php1</p.
-if($_GET["firstname"]) {//show feedback
-}else{//show from
-  echo'<form action="">
-  first name <input type="text" name="firstname"/>
-  <br/.
-  <input type="submat">
-  
+//echo '<p>This is PHP!</p>';
+if(isset($_GET["FirstName"])){//show feedback
+ echo $_GET["FirstName"];
+}else{//show form
+ echo '
+ <form action="">
+ First Name <input type="text" name="FirstName" />
+ <br />
+ <input type="submit">
   </form>
-
-
- ?>
- <p> this html </p>
+ ';
+}
+?>
