@@ -4,7 +4,7 @@ if(isset($_GET["FirstName"])){//show feedback
  //echo $_GET["FirstName"];
  
  echo '<pre>'; 
- var_dump($_GET);
+ //var_dump($_GET);
  
  
  echo '</pre>'; 
